@@ -1,0 +1,448 @@
+/* Ferndale House Dental Practice
+*  ferndale.css
+*  Main Site Structure
+*  Author: Stephen Willis
+*  Date: 14-11-2012
+*  v.2.0
+*/
+
+html,body,div,span,ul,ol,li,h1,h2,h3,h4,h5,h6,p,a,img,dl,dt,dd,em,strong,object,form,fieldset,input,select,textarea,label,legend,button,table,tr,th,td,tbody,tfoot,thead,caption,blockquote,abbr,acronym,address,big,cite,code,del,dfn,ins,kbd,q,samp,small,sub,sup,tt,var,pre,b,u,i,center,font,applet,strike,s,iframe,embed,form
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 1em;
+    background: transparent;
+    vertical-align: baseline;
+}
+
+address,abbr,caption,cite,code,dfn,em,strong,th,var,h1,h2,h3,h4,h5,h6
+{
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul,dir,menu
+{
+    list-style: none;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,th
+{
+    text-align: left;
+}
+
+blockquote,q
+{
+    quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after
+{
+    content: '';
+    content: none;
+}
+
+acronym
+{
+    cursor: help;
+}
+
+nobr
+{
+    white-space: normal;
+}
+
+hr
+{
+    display: none;
+}
+
+body
+{
+    font-size: 62.5%;
+    line-height: 1;
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: #ffffff;
+}
+
+/*----------Main outer div----------*/
+#wrap {
+	position: relative;
+	min-height: 100%;
+	width: 970px;
+	margin: auto;
+	background: #ffffff;	
+}
+
+/*----------HEADER inc. logo----------*/
+#header {
+	position: relative;
+	top: 0px;
+	height: 200px;
+	z-index:1;
+}
+
+#telephone {
+	margin: -30px 0px 0 0px;
+	padding: 0px 10px 0 0;
+	text-align: right;
+	z-index:2;
+}
+
+/*----------Navigation----------*/
+#navigation {
+	position: relative;
+	top: 0px;
+	height: 30px;
+	background: #666666;
+}
+
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #333333;
+}
+
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #666666;
+}
+
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #333333;
+}
+
+/*----------Main Content----------*/
+#main-content-wrap {
+	position: relative;
+	width: 960px;
+	height: 100%;
+	padding: 5px 0px 7px 0px;
+	border-top: 1px solid #C9DAE3;
+	text-align: justify;
+	background: #ffffff;
+}
+
+#main-content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 5px 0px 5px 0px;
+	background: #ffffff;
+}
+
+#main-content-left {
+	position: relative;
+	width: 655px;
+	height: 100%;
+	padding: 5px 5px 2px 0px;
+	background: transparent;
+}
+
+#main-content-right {
+	position: relative;
+	width: 300px;
+	height: 100%;
+	padding: 5px 0 5px 0;
+	float: right;
+	background: transparent;	
+}
+
+#form {
+	position: relative;
+	width: 300px;
+	min-height: 455px;
+	padding: 5px 0 5px 0px;
+	margin: 0px 0px 0px 0px;
+	/*float: right;*/
+	/*background: url(../images/contact_us_gradient.png) top left repeat-x;*/
+	border: 1px solid #6699cc;
+	background: #6699cc;
+	border-radius: 10px;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;	
+}
+
+#what_we_offer {
+	position: relative;
+	width: 30.5%;
+	height: 100%;
+	margin: 0 0 0 5px;
+	padding: 5px 0 0px 2;
+	float: right;
+	background: #ffffff;
+}
+
+/*----------FOOTER----------*/
+#spacer {
+	position: relative;
+	height: 1px;
+	clear: both;
+}
+
+#logos {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	margin: 10px 0 0 0;
+	padding: 10px 0 0px 0;
+	border-top: 1px solid #C9DAE3;
+	clear: both;
+	background: #ffffff;
+}
+
+#footer {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 55px;
+	width: 100%;
+	padding: 5px 0 0 0;
+	text-align: center;
+	clear: both;
+	background: #ffffff;
+}
+
+#footer p {
+	color: #7FAFD3;
+	font-size: 11px;
+}
+
+#footer a {
+	text-decoration: none; 
+	color: #7FAFD3;
+}
+
+#footer a:hover {
+	color: #999999;
+}
+
+/*----------float classes----------*/
+
+.float_left {
+	padding: 0px 0px 0px 10px;
+	float: left;
+}
+
+.float_left_alt {
+	padding: 0px 0px 0px 0px;
+	left: -10px;
+	float: left;
+}
+
+.float_right {
+	padding: 0px 0px 0px 10px;
+	float: right;
+}
+
+.float_right_alt {
+	padding: 0px 0px 0px 0px;
+	right: 0px;
+	float: right;
+}	
+
+/*----------H classes----------*/
+h1 {
+	font-family: Verdana, AvantGarde LT Book, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	color: #6699CC;
+	padding: 0px 0px 0px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+h2 {
+	font-family: Verdana, AvantGarde LT Book, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #6699CC;
+	padding: 5px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 0px 0px 0px 5px;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+h5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+h6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight: normal;
+	text-align: justify;
+	padding-right: 15px;
+	margin-top: 0px;
+}
+
+
+/*----------Various Classes----------*/
+.mainheading {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	padding: 0px 0px 5px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+padding_right {
+	padding: 0px 100px 0px 0px;
+}
+
+
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #7FAFD3;
+	text-align: center;
+}
+
+.contenttext {
+	font-size: 11px;
+	color: #000000;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.contenttext_alt {
+	font-size: 11px;
+	color: #000000;
+	padding-right: 10px;
+}
+
+.contenttext_form {
+	font-size: 11px;
+	color: #ffffff;
+}
+
+.subheading1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	padding: 0px 0px 0px 5px;
+	font-weight: bold;
+}
+.subheading2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 0px 0px 0px 5px;
+	font-weight: bold;
+}
+.subheading3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px 0px 0px 5px;
+	color: #000000;
+}
+
+.subheading4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 0px 0px 0px 5px;
+	color: #000000;
+}
+
+.subheading5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+
+.subheading6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+
+.center {
+	margin: auto;
+	text-align: center;
+}
+
+.superscript {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #5F1111;
+	font-weight: bold;
+}
+
+li.c1 {list-style: none; display: inline}
+
+/*----------Captcha----------*/
+#enquirylabel
+{
+	padding-left: 15px;	
+}
+
+td.captcha
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+
+#recaptcha_widget
+{
+	padding: 0px 0 5px 0;
+	font-size: 0.75em;
+	/*border: 1px solid #999999;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;*/
+	background: #6699cc;
+}
+
+#recaptcha_image
+{
+	margin-bottom: 5px;
+}

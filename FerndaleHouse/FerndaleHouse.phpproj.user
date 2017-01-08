@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <StartAction>CurrentPage</StartAction>
+    <SpecificPageValue>
+    </SpecificPageValue>
+    <StartUrlValue>
+    </StartUrlValue>
+  </PropertyGroup>
+</Project>
