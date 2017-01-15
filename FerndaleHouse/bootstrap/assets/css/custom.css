@@ -1,4 +1,15 @@
 /* Add here all your css styles (customizations) */
+a, a:hover
+{
+	color: #66B3D6;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color: #66B3D6;
+	text-transform: uppercase;	
+}
+
 .header-v4 .navbar-header
 {
 	margin: 0;
@@ -33,6 +44,37 @@
 	background: #66B3D6;
 }
 
+.carousel
+{
+    max-width: 262px;
+    margin: auto;
+}
+
+.img-inline
+{    
+    margin: auto;
+    display: block;
+}
+
+.content-sm
+{
+	padding-top: 0;
+}
+
+#topcontrol:hover
+{
+	background: #66B3D6;
+}
+
+@media (min-width: 568px)
+{
+	.img-inline
+	{
+	    float: left;
+	    margin: 0 2rem 1rem 0;
+	}
+}
+
 @media (min-width: 992px)
 {
 	.header-v4 .mega-menu .nav, .header-v4 .mega-menu .dropup, .header-v4 .mega-menu .dropdown, .header-v4 .mega-menu .collapse
@@ -55,7 +97,7 @@
 	.header-v4 .navbar-default .navbar-nav > .open > a, .header-v4 .navbar-default .navbar-nav > .open > a:hover, .header-v4 .navbar-default .navbar-nav > .open > a:focus
 	{
 		color: #ffffff;
-	}
+	}	
 }
 
 @media (max-width: 991px)
