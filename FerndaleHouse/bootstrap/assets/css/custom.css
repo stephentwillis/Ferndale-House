@@ -22,6 +22,28 @@ h1,h2,h3,h4,h5,h6
 	padding: 0 15px;
 }
 
+#ferndale-logo
+{
+	width: 1140px;
+}
+
+#ferndale-logo .ferndale-house
+{
+	fill: #66B3D6;
+}
+
+#ferndale-logo .dental-practice
+{
+	fill: #999999;
+}
+
+#ferndale-logo .ecg
+{
+	fill: none;
+	stroke-width: 3;
+	stroke: #66B3D6;
+}
+
 .header-v4 .navbar-nav
 {
 	margin-top: 0;
