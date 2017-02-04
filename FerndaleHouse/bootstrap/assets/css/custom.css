@@ -150,6 +150,34 @@ label
 	margin-bottom: 1rem;
 }
 
+.link
+{
+	background-color: #efefef;
+	padding: 2rem 1rem 1rem;
+	margin-bottom: 2rem;
+}
+
+.link:hover
+{
+	cursor: pointer;	
+	background-color: #bcbcbc;
+}
+
+.link a h6
+{
+	color: #555555;
+}
+
+.link a:hover
+{
+	text-decoration: none;
+}
+
+.link img
+{
+	margin-bottom: 1rem;
+}
+
 @media (min-width: 568px)
 {
 	.img-inline
