@@ -120,26 +120,6 @@
 
 	<?php include("assets/includes/master-js.php"); ?>
 
-	<script type="text/javascript">    
-	    function initMap() {
-	        var ferndaleHouse = { lat: 53.2376180, lng: -1.433523 }; 
-
-	        var options = {
-	            center: ferndaleHouse,
-	            zoom: 18,
-	            mapTypeId: google.maps.MapTypeId.ROADMAP
-	        };
-
-	        var map = new google.maps.Map(document.getElementById("map-canvas"), options);
-
-	        var marker = new google.maps.Marker({
-	            position: ferndaleHouse,
-	            map: map
-	        });
-	    }    
-	</script>
-	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAHiwc-N43Us8jf8jPnPfgDTFvi6mHTSPo&callback=initMap" async defer></script>
-
 	<?php include_once("assets/includes/analytics.php") ?>
 </body>
 </html>
