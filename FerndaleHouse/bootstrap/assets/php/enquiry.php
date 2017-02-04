@@ -12,7 +12,7 @@ $mailto = 'stephentwillis@gmail.com';
 // $subject - set to the Subject line of the email, eg
 //$subject	= "Feedback Form";
 
-$subject = "Web Enquiry";
+$subject = "Website Enquiry";
 
 // the pages to be displayed, eg
 //$formurl		= "http://www.example.com/feedback.html";
@@ -118,16 +118,16 @@ $messageproper =
 	"This message was sent from:\n" .
 	"$http_referrer\n" .
 	"\n\n------------------------------------------------------------\n\n" .
-	"Sender Details:\n" .
+	"Sender Details:\n\n" .
 	"Name:\n" .
-	"$name\n" .
+	"$name\n\n" .
 	"Address:\n" .
-	"$address\n" .
+	"$address\n\n" .
 	"Telephone:\n" .
-	"$telephone\n" .
+	"$telephone\n\n" .
 	"Email:\n" .
 	"$email\n" .
-	"\n\n-------------------- COMMENTS --------------------\n\n" .
+	"\n\n---------------------- ENQUIRY ---------------------\n\n" .
 	$enquiry .
 	"\n\n------------------------------------------------------------\n";
 

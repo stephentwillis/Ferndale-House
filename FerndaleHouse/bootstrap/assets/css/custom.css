@@ -76,6 +76,16 @@ label
 	background: #66B3D6;
 }
 
+#telephone h3
+{
+	font-size: 14px;
+}
+
+.content
+{
+	padding-top: 15px;
+}
+
 .carousel
 {
     max-width: 262px;
@@ -98,9 +108,46 @@ label
 	background: #66B3D6;
 }
 
-#enquiry-form
+.form-holder
 {
 	background-color: #66B3D6;
+	padding: 2rem;
+	margin: 0 0 1rem;
+}
+
+.form-holder h2
+{
+	color: #ffffff;
+	font-size: 2rem;
+}
+
+.form-group button
+{
+	float: right;
+}
+
+#enquiry-form:after
+{
+	content: " ";
+    display: block;
+    clear: both
+}
+
+#opening-times
+{
+	background-color: #efefef;
+	padding: 1rem;
+}
+
+#opening-times h5
+{
+	margin-top: 0;
+}
+
+#map-canvas
+{
+	height: 300px;
+	margin-bottom: 1rem;
 }
 
 @media (min-width: 568px)
@@ -112,30 +159,6 @@ label
 	}
 }
 
-@media (min-width: 992px)
-{
-	.header-v4 .mega-menu .nav, .header-v4 .mega-menu .dropup, .header-v4 .mega-menu .dropdown, .header-v4 .mega-menu .collapse
-	{
-		background: #66B3D6;
-	}
-
-	.header-v4 .navbar-default .navbar-nav > li:hover > a 
-	{
-	    color: #000000;
-	    border-top: solid 2px #cccccc;
-	    background: #cccccc;
-	}
-
-	.header-v4 .navbar-default .navbar-nav > li > a:hover, .header-v4 .navbar-default .navbar-nav > .active > a
-	{
-		border-top: solid 2px #cccccc;
-	}
-
-	.header-v4 .navbar-default .navbar-nav > .open > a, .header-v4 .navbar-default .navbar-nav > .open > a:hover, .header-v4 .navbar-default .navbar-nav > .open > a:focus
-	{
-		color: #ffffff;
-	}	
-}
 
 @media (max-width: 991px)
 {
@@ -163,5 +186,42 @@ label
 	.navbar-default .navbar-toggle .icon-bar
 	{
 		background-color: #ffffff;
+	}	
+}
+
+
+@media (min-width: 992px)
+{
+	.header-v4 .mega-menu .nav, .header-v4 .mega-menu .dropup, .header-v4 .mega-menu .dropdown, .header-v4 .mega-menu .collapse
+	{
+		background: #66B3D6;
+	}
+
+	.header-v4 .navbar-default .navbar-nav > li:hover > a 
+	{
+	    color: #000000;
+	    border-top: solid 2px #cccccc;
+	    background: #cccccc;
+	}
+
+	.header-v4 .navbar-default .navbar-nav > li > a:hover, .header-v4 .navbar-default .navbar-nav > .active > a
+	{
+		border-top: solid 2px #cccccc;
+	}
+
+	.header-v4 .navbar-default .navbar-nav > .open > a, .header-v4 .navbar-default .navbar-nav > .open > a:hover, .header-v4 .navbar-default .navbar-nav > .open > a:focus
+	{
+		color: #ffffff;
+	}	
+
+	#telephone h3
+	{
+		font-size: 20px;
+	}
+
+
+	#map-canvas
+	{
+		height: 600px;
 	}
 }

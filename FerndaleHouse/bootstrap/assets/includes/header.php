@@ -4,7 +4,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <svg version="1.1" id="ferndale-logo" class="img-responsive" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 1140 180" style="enable-background:new 0 0 1140 180;" xml:space="preserve">
 
@@ -88,9 +88,12 @@
                                 c-6.7,0-3.3,66-25.9,85.2c-5.5,4.6-36.1,15.2-100.8,16.6C631.4,119.5,155.1,130.5,0,180"/>
                         </g>
                     </svg>
-
-
                 </a>
+
+                <div id="telephone" class="text-right">
+                    <h3>Call us today on 01246 232634</h3>
+                </div>
+
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
                     <span class="full-width-menu">Menu</span>
                     <span class="icon-toggle">
@@ -102,7 +105,7 @@
             </div>
         </div>
 
-        <div class="clearfix"></div>
+        
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-responsive-collapse">
@@ -110,7 +113,7 @@
                 <ul class="nav navbar-nav">
                     <!-- Home -->
                     <li>
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="index.php">
                             Home
                         </a>
                     </li>
@@ -188,7 +191,7 @@
 
                     <!-- Contact -->
                     <li>
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="contact-us.php">
                             Contact Us
                         </a>                                
                     </li>
@@ -196,7 +199,7 @@
 
                     <!-- Links -->
                     <li>
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="javascript:void(0);">
                             Links
                         </a>
                     </li>

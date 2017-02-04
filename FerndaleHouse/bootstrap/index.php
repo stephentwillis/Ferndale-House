@@ -47,7 +47,9 @@
 				<!-- End Content -->
 
 				<!-- Begin Sidebar -->
+				<div class="col-md-3">
 				<?php include("assets/includes/gallery.php"); ?>
+				</div>
 				<!-- End Sidebar -->
 			</div>
 		</div><!--/container-->
