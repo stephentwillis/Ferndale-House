@@ -124,6 +124,47 @@ label
 .form-group button
 {
 	float: right;
+	border: 0;
+}
+
+.required
+{
+    font-size: 12px;    
+    width: 100%;    
+    padding-top: 5px;
+    margin-left: 1rem;
+    color: #eeeeee;
+}
+
+.required b
+{
+	color: #f9d8d5;
+}
+
+.form-control
+{
+	border: 1px solid #000000;
+}
+
+.form-control.error
+{
+    background-color: #f9d8d5;
+    -webkit-box-shadow: 0 0 4px #e03222;
+    -moz-box-shadow: 0 0 4px #e03222;
+    box-shadow: 0 0 4px #e03222;
+    border-color: #ee3524;
+}
+
+#form-error
+{
+	display: none;
+    padding: 1rem;
+    border: 1px solid #ee3524;
+    background-color: #f9d8d5;
+    -webkit-box-shadow: 0 0 4px #e03222;
+    -moz-box-shadow: 0 0 4px #e03222;
+    box-shadow: 0 0 4px #e03222;
+    border-color: #ee3524;
 }
 
 #enquiry-form:after
