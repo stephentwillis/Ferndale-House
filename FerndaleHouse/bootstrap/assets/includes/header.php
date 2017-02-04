@@ -103,9 +103,7 @@
                     </span>
                 </button>
             </div>
-        </div>
-
-        
+        </div>        
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-responsive-collapse">
@@ -199,7 +197,7 @@
 
                     <!-- Links -->
                     <li>
-                        <a href="javascript:void(0);">
+                        <a href="links.php">
                             Links
                         </a>
                     </li>

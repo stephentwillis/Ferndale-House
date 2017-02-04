@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-	<title>Welcome | Ferndale House Dental Practice | The Patient People | Dentist in Chesterfield</title>
+	<title>Contact Us | Ferndale House Dental Practice | The Patient People | Dentist in Chesterfield</title>
 
 	<?php include("assets/includes/master-css.php"); ?>
 </head>
