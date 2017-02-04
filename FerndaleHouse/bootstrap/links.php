@@ -19,7 +19,7 @@
 			<div class="row magazine-page">
 				<!-- Begin Content -->
                 <div class="col-md-12">
-                    <h2>Contact us</h2>
+                    <h2>Links</h2>
                 </div>
 
 				<div class="col-md-8">
