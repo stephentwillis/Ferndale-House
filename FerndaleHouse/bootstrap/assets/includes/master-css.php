@@ -5,8 +5,8 @@
 <meta name="author" content="">
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="assets/img/icons/favicon.ico">
-<link href="assets/img/icons/apple-touch-icon.png" rel="apple-touch-icon">
+<link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
+<link href="/assets/img/icons/apple-touch-icon.png" rel="apple-touch-icon">
 
 <!-- Web Fonts -->
 <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>

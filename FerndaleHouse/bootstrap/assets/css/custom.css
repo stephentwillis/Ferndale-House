@@ -4,9 +4,16 @@ ul
 	list-style-type: none;
 }
 
-a, a:hover
+a
 {
 	color: #66B3D6;
+	transition: all .4s ease-out;
+}
+
+a:hover
+{
+	color: #294857;
+	text-decoration: none;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -20,6 +27,25 @@ label
 	color: #ffffff;
 }
 
+textarea.ui-input-text 
+{ 
+	height: inherit !important
+}
+
+.btn
+{
+	background-color: #294857;
+	color: #ffffff;
+	font-weight: bold;
+    transition: all .4s ease-out;
+}
+
+.btn:hover
+{
+	background-color: #accddd;
+	color: #294857;
+}
+
 .header-v4 .navbar-header
 {
 	margin: 0;
@@ -30,6 +56,38 @@ label
 	height: auto;
 	margin: 0 0 1rem 0;
 	padding: 0 15px;
+}
+
+.header-v4 .dropdown-menu 
+{
+	border-bottom: 2px solid #294857;
+}
+
+#breadcrumbs ul
+{
+	padding: 0;
+}
+
+#breadcrumbs ul li
+{
+	display: inline-block;
+	color: #294857;
+}
+
+#breadcrumbs ul li:after 
+{
+    content: " >";
+    color: #b4baae;
+}
+
+#breadcrumbs ul li:last-child:after 
+{
+    content: "";
+}
+
+#breadcrumbs ul li a:hover
+{
+	color: #66B3D6;
 }
 
 #ferndale-logo
@@ -62,11 +120,13 @@ label
 .header-v4 .navbar-default .navbar-nav > li
 {
 	border: 0;	
+	transition: all .4s ease-out;
 }
 
 .header-v4 .navbar-default .navbar-nav > li > a
 {
 	color: #ffffff;
+	transition: all .4s ease-out;
 }
 
 .header-v4 .navbar-toggle, 
@@ -96,6 +156,12 @@ label
 {    
     margin: auto;
     display: block;
+}
+
+.img-frame
+{
+	padding: 0.5rem;
+	background-color: #accddd;
 }
 
 .content-sm
@@ -143,7 +209,7 @@ label
 
 .form-control
 {
-	border: 1px solid #000000;
+	border: 1px solid #294857;
 }
 
 .form-control.error
@@ -196,6 +262,7 @@ label
 	background-color: #efefef;
 	padding: 2rem 1rem 1rem;
 	margin-bottom: 2rem;
+	transition: all .4s ease-out;
 }
 
 .link:hover
@@ -217,6 +284,46 @@ label
 .link img
 {
 	margin-bottom: 1rem;
+}
+
+.list li
+{
+	list-style-type: square;
+}
+
+.content-block
+{
+	margin-bottom: 3rem;
+}
+
+.content-block h1,
+.content-block h2,
+.content-block h3,
+.content-block h4,
+.content-block h5,
+.content-block h6
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.content-block:after
+{
+	content: " ";
+    display: block;
+    clear: both
+}
+
+.content-row 
+{
+	padding: 1.5rem 0;
+}
+
+.bg-alert
+{
+	padding: 1rem;
+	background: #fcf2bd;
+	border: 1px solid gold;
 }
 
 @media (min-width: 568px)
@@ -243,8 +350,8 @@ label
 
 	.header-v4 .navbar-default .navbar-nav > li > a:hover 
 	{
-    	color: #000000;
-    	background: #cccccc;
+    	color: #294857;
+    	background: #accddd;
 	}
 
 	.header-v4 .full-width-menu
@@ -261,27 +368,39 @@ label
 
 @media (min-width: 992px)
 {
-	.header-v4 .mega-menu .nav, .header-v4 .mega-menu .dropup, .header-v4 .mega-menu .dropdown, .header-v4 .mega-menu .collapse
+	.header-v4 .mega-menu .nav, 
+	.header-v4 .mega-menu .dropup, 
+	.header-v4 .mega-menu .dropdown, 
+	.header-v4 .mega-menu .collapse
 	{
 		background: #66B3D6;
 	}
 
 	.header-v4 .navbar-default .navbar-nav > li:hover > a 
 	{
-	    color: #000000;
-	    border-top: solid 2px #cccccc;
-	    background: #cccccc;
+	    color: #294857;
+	    border-top: solid 2px #accddd;
+	    background: #accddd;
 	}
 
-	.header-v4 .navbar-default .navbar-nav > li > a:hover, .header-v4 .navbar-default .navbar-nav > .active > a
+	.header-v4 .navbar-default .navbar-nav > li > a:hover, 
+	.header-v4 .navbar-default .navbar-nav > .active > a
 	{
-		border-top: solid 2px #cccccc;
+		border-top: solid 2px #accddd;
 	}
 
-	.header-v4 .navbar-default .navbar-nav > .open > a, .header-v4 .navbar-default .navbar-nav > .open > a:hover, .header-v4 .navbar-default .navbar-nav > .open > a:focus
+	.header-v4 .navbar-default .navbar-nav > .open > a, 
+	.header-v4 .navbar-default .navbar-nav > .open > a:hover, 
+	.header-v4 .navbar-default .navbar-nav > .open > a:focus
 	{
 		color: #ffffff;
 	}	
+
+	.header-v4 .dropdown-menu .active > a,
+	.header-v4 .dropdown-menu li > a:hover 
+	{
+	    background: #487e96 !important;
+	}
 
 	#telephone h3
 	{

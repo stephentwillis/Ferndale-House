@@ -4,7 +4,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="/index.php" data-ajax="false">
                     <svg version="1.1" id="ferndale-logo" class="img-responsive" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 1140 180" style="enable-background:new 0 0 1140 180;" xml:space="preserve">
 
@@ -111,7 +111,7 @@
                 <ul class="nav navbar-nav">
                     <!-- Home -->
                     <li>
-                        <a href="index.php">
+                        <a href="/index.php" data-ajax="false">
                             Home
                         </a>
                     </li>
@@ -129,15 +129,15 @@
                                         <div class="row equal-height">
                                             <div class="col-md-3 equal-height-in">
                                                 <ul class="list-unstyled equal-height-list">
-                                                    <li><h3>About Us</h3></li>    
+                                                    <li><h3>Information</h3></li>    
 
-                                                    <!-- About Us -->     
-                                                    <li><a href="#">Welcome</a></li>
-                                                    <li><a href="#">Meet The Team</a></li>                            
-                                                    <li><a href="#">Denplan</a></li>                                          
-                                                    <li><a href="#">Patient Care Information</a></li>
-                                                    <li><a href="#">Family Treatment Information</a></li>
-                                                    <!-- End About Us -->
+                                                    <!-- Information -->     
+                                                    <li><a href="/our-services/about-us/patient-information.php" data-ajax="false">Patient Information</a></li>
+                                                    <li><a href="/our-services/about-us/meet-the-team.php" data-ajax="false">Meet The Team</a></li>                            
+                                                    <li><a href="/our-services/about-us/denplan.php" data-ajax="false">Denplan</a></li>                                          
+                                                    <li><a href="/our-services/about-us/patient-care-information.php" data-ajax="false">Patient Care Information</a></li>
+                                                    <li><a href="/our-services/about-us/family-treatment-information.php" data-ajax="false">Family Treatment Information</a></li>
+                                                    <!-- End Information -->
                                                 </ul>
                                             </div>
                                             <div class="col-md-3 equal-height-in">
@@ -145,12 +145,12 @@
                                                     <li><h3>Confident Smile</h3></li>
 
                                                     <!-- Confident Smile -->
-                                                    <li><a href="#">Smile Makeover</a></li>
-                                                    <li><a href="#">Invisalign &copy;</a></li>
-                                                    <li><a href="#">Teeth Whitening</a></li>
-                                                    <li><a href="#">Tooth Coloured Fillings</a></li>
-                                                    <li><a href="#">Porcelain Veneers</a></li>
-                                                    <li><a href="#">Valplast Dentures</a></li>
+                                                    <li><a href="/our-services/confident-smile/smile-makeover.php" data-ajax="false">Smile Makeover</a></li>
+                                                    <li><a href="/our-services/confident-smile/invisalign.php" data-ajax="false">Invisalign &copy;</a></li>
+                                                    <li><a href="/our-services/confident-smile/teeth-whitening.php" data-ajax="false">Teeth Whitening</a></li>
+                                                    <li><a href="/our-services/confident-smile/tooth-coloured-fillings.php" data-ajax="false">Tooth Coloured Fillings</a></li>
+                                                    <li><a href="/our-services/confident-smile/porcelain-veneers.php" data-ajax="false">Porcelain Veneers</a></li>
+                                                    <li><a href="/our-services/confident-smile/valplast-dentures.php" data-ajax="false">Valplast Dentures</a></li>
                                                     <!-- End Confident Smile -->
                                                 </ul>
                                             </div>
@@ -159,11 +159,11 @@
                                                     <li><h3>Our Specialist Treatments</h3></li>
 
                                                     <!-- Specialist Treatments -->
-                                                    <li><a href="#">Invisalign &copy;</a></li>
-                                                    <li><a href="#">Sedation</a></li>
-                                                    <li><a href="#">Orthodontics</a></li>
-                                                    <li><a href="#">Periodontics</a></li>
-                                                    <li><a href="#">Snoring Solutions</a></li>
+                                                    <li><a href="/our-services/confident-smile/invisalign.php" data-ajax="false">Invisalign &copy;</a></li>
+                                                    <li><a href="/our-services/specialist-treatments/sedation-treatments.php" data-ajax="false">Sedation Treatments</a></li>
+                                                    <li><a href="/our-services/specialist-treatments/orthodontic-treatments.php" data-ajax="false">Orthodontic Treatments</a></li>
+                                                    <li><a href="/our-services/specialist-treatments/periodontal-treatments.php" data-ajax="false">Periodontal Treatments</a></li>
+                                                    <li><a href="/our-services/specialist-treatments/snoring-solutions.php" data-ajax="false">Snoring Solutions</a></li>
                                                     <!-- End Specialist Treatments -->
                                                 </ul>
                                             </div>
@@ -172,11 +172,11 @@
                                                     <li><h3>Need Advice?</h3></li>
 
                                                     <!-- Advice -->
-                                                    <li><a href="#">Antibiotics</a></li>
-                                                    <li><a href="#">Extractions</a></li>
-                                                    <li><a href="#">Crowns &amp; Fillings</a></li>                                                          
-                                                    <li><a href="#">Orthodontics</a></li>
-                                                    <li><a href="#">Sedations</a></li>
+                                                    <li><a href="/our-services/advice/antibiotics.php" data-ajax="false">Antibiotics</a></li>
+                                                    <li><a href="/our-services/advice/extractions.php" data-ajax="false">Extractions</a></li>
+                                                    <li><a href="/our-services/advice/crowns-and-fillings.php" data-ajax="false">Crowns &amp; Fillings</a></li>                                                          
+                                                    <li><a href="/our-services/advice/orthodontics.php" data-ajax="false">Orthodontics</a></li>
+                                                    <li><a href="/our-services/advice/sedations.php" data-ajax="false">Sedations</a></li>
                                                     <!-- End Advice -->
                                             </div>
                                         </div>
@@ -189,7 +189,7 @@
 
                     <!-- Contact -->
                     <li>
-                        <a href="contact-us.php">
+                        <a href="/contact-us.php" data-ajax="false">
                             Contact Us
                         </a>                                
                     </li>
@@ -197,7 +197,7 @@
 
                     <!-- Links -->
                     <li>
-                        <a href="links.php">
+                        <a href="/links.php" data-ajax="false">
                             Links
                         </a>
                     </li>

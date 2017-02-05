@@ -24,7 +24,7 @@
 					<div class="magazine-news">
 						<div class="row">
 							<div class="col-md-12">								
-								<img class="img-inline" src="assets/img/the-team.png" alt="Ferndale Team" />
+								<img class="img-inline" src="/assets/img/the-team.png" alt="Ferndale Team" />
 								<h2>Welcome To Our Practice...</h3>
 								<p>
 
@@ -35,7 +35,7 @@
 									We trust that you will feel enhanced by your visits to us, and we look forward to working with you to make Ferndale House Dental Practice the best it can possibly be - the talk of the town!
 									<br /><br />
 									We hope you find our website useful and informative. You can forward any suggestions to our webmaster at 
-									<a href="mailto:webmaster@ferndaledental.co.uk">webmaster@ferndaledental.co.uk</a> we would like you to keep enjoying it! 
+									<a href="mailto:webmaster@ferndaledental.co.uk" data-ajax="false">webmaster@ferndaledental.co.uk</a> we would like you to keep enjoying it! 
 									<br /><br />
 									All the dentists at Ferndale House Dental Practice adhere to the GDC Standards for Dental Professionals.
 								</p>

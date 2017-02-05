@@ -27,7 +27,7 @@
 					<!-- Magazine News -->
 					<div class="magazine-news">
 						<div class="row">
-							<div class="col-md-6">	
+							<div class="col-xs-12 col-sm-6 col-md-6">
                                 <div id="address">							
     								<p>
                                         Ferndale House Dental Practice
@@ -44,7 +44,7 @@
                                     </p>
                                 </div>
 							</div>
-                            <div class="col-md-6">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div id="opening-times" class="text-center">                                    
                                     <h5>We are delighted to receive our patients between...</h5>
                                     <p>
@@ -118,6 +118,51 @@
 	    }    
 	</script>
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAHiwc-N43Us8jf8jPnPfgDTFvi6mHTSPo&callback=initMap" async defer></script>
+
+
+	<script type="text/javascript">
+		function ChangeContactOrientation(orientation)
+		{
+			var $orientation = orientation;
+			var $address = jQuery("#address").parent();
+			var $openingTimes = jQuery("#opening-times").parent();
+
+			if ($orientation == "portrait") {
+				// Span columns across screen
+
+				$address.removeClass("col-xs-6");
+				$openingTimes.removeClass("col-xs-6");
+
+				$address.addClass("col-xs-12");
+				$openingTimes.addClass("col-xs-12");
+			}
+
+			if ($orientation == "landscape") {
+				// Site columns side by side
+
+				$address.removeClass("col-xs-12");
+				$openingTimes.removeClass("col-xs-12");
+
+				$address.addClass("col-xs-6");
+				$openingTimes.addClass("col-xs-6");
+			}
+		}
+
+		jQuery("document").ready(function(){
+
+			if (window.innerWidth > window.innerHeight) {
+				// Check orientation on load
+
+				ChangeContactOrientation("landscape");
+			}
+
+			// Lets do a bit or adaptive design
+			jQuery(window).on("orientationchange", function(e) {		
+				ChangeContactOrientation(e.orientation);
+			});			
+
+		});
+	</script>
 
 	<?php include_once("assets/includes/analytics.php") ?>
 </body>
