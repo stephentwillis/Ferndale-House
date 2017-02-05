@@ -6,8 +6,8 @@
 // sent to, eg
 //$mailto		= "youremailaddress@example.com";
 
-//$mailto = 'enquiries@ferndaledental.co.uk';
-$mailto = 'stephentwillis@gmail.com';
+$mailto = 'enquiries@ferndaledental.co.uk';
+
 
 // $subject - set to the Subject line of the email, eg
 //$subject	= "Feedback Form";
@@ -20,8 +20,8 @@ $subject = "Website Enquiry";
 //$thankyouurl	= "http://www.example.com/thankyou.html";
 
 $formurl = "";
-$errorurl = "http://www.ferndaledental.co.uk/oops.php";
-$thankyouurl = "http://www.ferndaledental.co.uk/thx.php";
+$errorurl = "http://www.ferndaledental.co.uk/bootstrap/oops.php";
+$thankyouurl = "http://www.ferndaledental.co.uk/bootstrap/thanks.php";
 
 $email_is_required = 1;
 $name_is_required = 1;
