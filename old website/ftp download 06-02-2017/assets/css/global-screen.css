@@ -1,0 +1,852 @@
+﻿/* Ferndale House Dental Practice
+*  ferndale.css
+*  Main Site Structure
+*  Author: Stephen Willis
+*  Date: 14-11-2012
+*  v.2.0
+*/
+
+html,body,div,span,ul,ol,li,h1,h2,h3,h4,h5,h6,p,a,img,dl,dt,dd,em,strong,object,form,fieldset,label,legend,button,table,tr,th,td,tbody,tfoot,thead,caption,blockquote,abbr,acronym,address,big,cite,code,del,dfn,ins,kbd,q,samp,small,sub,sup,tt,var,pre,b,u,i,center,font,applet,strike,s,iframe,embed,form
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 1em;
+    background: transparent;
+    vertical-align: baseline;
+}
+
+address,abbr,caption,cite,code,dfn,em,strong,th,var,h1,h2,h3,h4,h5,h6
+{
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul,dir,menu
+{
+    list-style: none;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,th
+{
+    text-align: left;
+}
+
+blockquote,q
+{
+    quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after
+{
+    content: '';
+    content: none;
+}
+
+acronym
+{
+    cursor: help;
+}
+
+nobr
+{
+    white-space: normal;
+}
+
+hr
+{
+    display: none;
+}
+
+body
+{
+    background-color: #ffffff;
+    font-size: 62.5%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+/*----- Structure ----*/
+#wrap 
+{
+	position: relative;
+	min-height: 100%;
+	width: 960px;
+	margin: auto;
+	background: #ffffff;	
+}
+
+#header
+{
+    position: relative;
+	top: 0px;
+	height: 200px;
+	margin-bottom: 5px;
+	z-index:1;
+	border-bottom: 1px solid #C9DAE3;
+}
+
+#telephone {
+	/*margin: -30px 0px 0 0px;
+	padding: 0px 10px 0 0;*/
+	position: absolute;
+	text-align: right;
+	z-index:2;
+	top:173px;
+	right:0px;
+	height: 20px;
+}
+
+#telephone h2, #main-content-right h2, #LinksTable h2
+{
+    color: #6699CC;
+    font-size: 1.8em;
+    font-weight: normal;
+    text-transform: none;
+}
+
+#testimonials-gallery
+{
+    position: absolute;
+    width: 490px;
+    top: 147px;
+    left: 185px;
+}
+
+.testimonial
+{
+    position: absolute;
+    z-index: 1;
+    height: 50px;
+    background: white;
+}
+
+.testimonial.active-testimonial
+{
+    z-index:3;
+}
+
+.testimonial p
+{
+    font-size: 1.1em;
+    color: #6699cc;
+}
+
+#main-content-wrap
+{
+    background: transparent url(/assets/images/fern.png) top left no-repeat;
+}
+
+#main-content-left
+{
+    position: relative;
+	width: 655px;
+	/*height: 100%;*/
+	min-height: 346px;
+	padding: 5px 5px 2px 0px;
+	background: transparent;
+}
+
+#main-content-left h1
+{
+    font-family: CallunaSansRegular;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#main-content-right
+{
+    position: relative;
+	width: 300px;
+	height: 100%;
+	padding: 5px 0 5px 0;
+	float: right;
+	background: transparent;
+}
+
+/*----- Navigation -----*/
+#nav-main 
+{
+	position: relative;
+	top: 0px;
+	height: 30px;	
+	background: #7FAFD3 url(/assets/images/nav_bg.png) center repeat;
+	
+}
+
+#nav-main ul
+{
+    z-index:100;
+    margin: auto;
+    width: 780px;
+    height: 30px;
+    margin: auto;
+	list-style-type: none; 
+}
+
+#nav-main ul li
+{
+    position: relative;
+	/*display: inline;*/
+	float: left;
+	height: 30px;
+}
+
+#nav-main ul li a
+{
+    display: block; /*background of menu items (default state)*/
+	padding: 5px 15px;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+#nav-main ul li a.LinkOver
+{
+    color: #454545;
+    background: #E4E8E8;
+}
+
+#nav-main ul li ul li a
+{
+    display: block; /*background of menu items (default state)*/
+	padding: 6px 10px;
+	text-decoration: none;
+	border: none !important;
+	color: #454545;
+}
+
+#nav-main ul li ul li a:hover
+{
+    color: #454545;
+    background: #E4E8E8;
+}
+
+#nav-main ul li div.mainNavContent
+{
+    background: none repeat scroll 0 0 #FFF;
+    border: 0 none;
+    box-shadow: 0 3px 5px 1px #999;
+    display: none;
+    left: 0;
+    margin: 0 0 0 0px;
+    position: absolute;
+    top: 30px;
+    width: 658px;
+    z-index: 500;
+}
+
+#nav-main ul li div.mainNavContent .preview {
+    background: #E4E8E8;
+    border-left: 1px dotted #CCCCCC;
+    padding: 15px 15px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 329px;
+    z-index: 1;
+}
+
+#nav-main ul li div.mainNavContent li > .preview {
+    display: none;
+    z-index: 2;
+}
+
+#nav-main ul li div.mainNavContent ul
+{
+    width: 658px;
+    float: left;
+}
+
+#nav-main ul li div.mainNavContent ul li
+{
+    float: none;
+    font-size: 1em;
+}
+
+#nav-main ul li div.mainNavContent ul li.HoverOver
+{
+    color: #454545;
+    background: #E4E8E8;
+    height: 30px;
+}
+
+#nav-main ul li div.mainNavContent ul li ul
+{
+    width: 161px;
+    display: none;
+    position:absolute;
+    top: -90px;
+    left: 150px;
+    height: 212px;
+    border-left: 1px dotted #CCCCCC;
+}
+
+html body div#wrap div#nav-main ul li#confident-smile div.mainNavContent ul.links li#SmileServices ul.SubLinks li#SmileWhite div.preview
+{
+    background: #E4E8E8;
+    border-left: 1px dotted #CCCCCC;
+    padding: 15px 15px;
+    position: absolute;
+    left: 161px !important;
+    top: 0px !important;
+    width: 315px;
+    z-index: 1;
+}
+
+#nav-main #about-us .mainNavContent
+{
+    height: 92px;
+}
+
+#nav-main #about-us .mainNavContent .preview
+{
+    height: 62px;
+}
+
+#nav-main #specialist-treatments .mainNavContent
+{
+    left: -273px;
+    height: 152px;
+}
+
+#nav-main #specialist-treatments .mainNavContent .preview
+{
+    height:122px;
+}
+
+#nav-main #confident-smile .mainNavContent
+{
+    left: -445px;
+    height: 212px;
+}
+
+#nav-main #confident-smile .mainNavContent .preview
+{
+    height: 182px;
+    width: 315px;
+}
+
+
+#nav-main #advice .mainNavContent
+{
+    left: -583px;
+    height: 152px;
+}
+
+#nav-main #advice .mainNavContent .preview
+{
+    height: 122px;
+}
+
+#nav-main #about-us #AboutDenplan .preview
+{
+    top: -60px;
+    height: 60px;
+}
+
+#nav-main #specialist-treatments #SpecialSedation .preview
+{
+    top: -30px;  
+}
+
+#nav-main #specialist-treatments #SpecialOrtho .preview
+{
+    top: -60px;
+}
+
+#nav-main #specialist-treatments #SpecialPerio .preview
+{
+    top: -90px;
+}
+
+#nav-main #specialist-treatments #SpecialSnore .preview
+{
+    top: -120px;
+    height: 120px;
+}
+
+#nav-main #confident-smile #SmileWelcome .preview
+{
+}
+
+#nav-main #confident-smile #SmileDentist .preview
+{
+    top:-30px;
+}
+
+#nav-main #confident-smile #SmilePatients .preview
+{
+    top:-60px;
+}
+
+#nav-main #confident-smile #SmileServices .preview
+{
+    top:-90px;
+}
+
+#nav-main #confident-smile #SmileContact .preview
+{
+    top:-120px;
+}
+
+#nav-main #confident-smile #SmileMakeover .preview
+{
+    top: 0px;
+    left: 161px !important;
+}
+
+html body div#wrap div#nav-main ul li#confident-smile div.mainNavContent ul.links li#SmileServices ul.SubLinks li#SmileLumineers div.preview
+{
+    top:-30px;
+    left: 161px !important;
+}
+
+html body div#wrap div#nav-main ul li#confident-smile div.mainNavContent ul.links li#SmileServices ul.SubLinks li#SmileInvisalign div.preview
+{
+    top:-30px;
+    left: 161px !important;
+}
+
+html body div#wrap div#nav-main ul li#confident-smile div.mainNavContent ul.links li#SmileServices ul.SubLinks li#SmileWhite div.preview
+{
+    top:-60px !important;
+    left: 161px !important;
+}
+
+html body div#wrap div#nav-main ul li#confident-smile div.mainNavContent ul.links li#SmileServices ul.SubLinks li#SmileColoured div.preview
+{
+    top:-90px;
+    left: 161px !important;
+}
+
+html body div#wrap div#nav-main ul li#confident-smile div.mainNavContent ul.links li#SmileServices ul.SubLinks li#SmileVeneers div.preview
+{
+    top:-120px;
+    left: 161px !important;
+}
+html body div#wrap div#nav-main ul li#confident-smile div.mainNavContent ul.links li#SmileServices ul.SubLinks li#SmileValplast div.preview
+{
+    top:-150px;
+    left: 161px !important;
+}
+html body div#wrap div#nav-main ul li#confident-smile div.mainNavContent ul.links li#SmileServices ul.SubLinks li#SmileSedation div.preview
+{
+    top:-180px;
+    left: 161px !important;
+}
+
+#nav-main #advice #AdviceAnti .preview
+{
+}
+
+#nav-main #advice #AdviceExtract .preview
+{
+    top: -30px;
+}
+
+#nav-main #advice #AdviceFillings .preview
+{
+    top: -60px;
+}
+
+#nav-main #advice #AdviceOrtho .preview
+{
+    top: -90px;
+}
+
+html body div#wrap div#nav-main ul li#advice div.mainNavContent ul.links li#AdviceSedation div.preview
+{
+    top: -120px !important;
+    height: 120px;
+}
+
+/*----- My Dental Score -----*/
+.btn-dental-score
+{
+	display:block;
+	text-indent: -9999px;
+	height:61px;
+	width:248px;
+	float: right;
+	background:transparent url(/assets/images/dental-score.png) top left no-repeat;
+}
+.btn-dental-score:hover
+{
+	background-position:0 -61px;
+}
+
+/*----- Ad Banner -----*/
+#banner
+{
+    width: 960px;
+    height: 60px;
+    margin-top: 4px;
+    background: transparent url(/assets/images/banner.png) top left no-repeat;
+}
+
+.btn-book
+{
+    width: 151px;
+    height: 35px;
+    position: absolute;
+    top: 252px;
+    right: 15px;
+    background: transparent url(/assets/images/btn-book.png) top left no-repeat;   
+}
+
+.btn-book:hover
+{
+    background: transparent url(/assets/images/btn-book.png) 0px -35px no-repeat;
+}
+
+/*----- Gallery / Body Items -----*/
+.GalleryItem
+{
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+}
+
+.GalleryItem.active 
+{
+    position: absolute;
+    z-index: 3;
+}
+
+#OpeningTimesTable
+{
+    border: 1px solid #454545; 
+    float: right; 
+    margin-top: -0px; 
+    border-collapse: collapse;
+    background: white;
+}
+
+#OpeningTimesTable td
+{
+    border: 1px solid #454545; 
+}
+
+#LinksTable td
+{
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.list
+{
+    margin-left: 25px !important;
+    margin-top: 5px !important;
+    list-style-type: square;
+    list-style-position: inside;
+    margin-bottom: 5px !important;
+}
+
+.SubList
+{
+    margin-left: 35px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    list-style-type: square;
+    list-style-position: inside;    
+}
+
+.SubList li
+{
+    font-size: 1em !important;
+}
+
+/*----- FOOTER -----*/
+#spacer {
+	position: relative;
+	height: 1px;
+	clear: both;
+}
+
+#logos {
+	position: relative;
+	height: 50px;
+	width: 960px;
+	/*margin: 10px 0;*/
+	padding: 10px 0;
+	border-top: 1px solid #C9DAE3;
+	clear: both;
+	background: #ffffff;
+}
+
+#logos ul
+{
+    margin: auto;
+    width: 816px;
+}
+
+#logos ul li
+{
+    float: left;
+}
+
+#footer {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 55px;
+	width: 100%;
+	/*padding: 5px 0 0 0;*/
+	text-align: center;
+	clear: both;
+	background: #ffffff;
+}
+
+#footer p {
+	/*color: #7FAFD3;*/
+	color: #454545;
+	font-size: 1.2em;
+}
+
+#footer a {
+	text-decoration: none; 
+	/*color: #7FAFD3;*/
+	color: #454545;
+}
+
+#footer a:hover {
+	color: #999999;
+}
+
+/*----- Typography -----*/
+
+@font-face 
+{
+    font-family: CallunaSansRegular;
+    src: url("/assets/fonts/CallunaSansRegular.otf");
+    font-weight:200;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    color: #454545;
+    /*font-weight: bold;*/
+    font-family: Tahoma,Verdana,Geneva;
+    line-height: 1.5;
+    /*margin-bottom: 1em;*/
+}
+
+h1
+{
+    font-size: 2em;
+    color: #6699CC;
+    text-transform: uppercase;
+    word-spacing: .2em;
+}
+
+h2
+{
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+h3
+{
+    font-size: 1.7em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    color: #6699CC;
+}
+
+h4
+{
+    font-size: 1.2em;
+}
+
+h5
+{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+h6
+{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+p, address, li, dt, dd, td, th 
+{
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #454545;
+}
+
+
+/*----- Form -----*/
+#form {
+	position: relative;
+	width: 300px;
+	min-height: 455px;
+	padding: 5px 0 5px 0px;
+	margin: 0px 0px 0px 0px;
+	/*float: right;*/
+	/*background: url(/assets/images/contact_us_gradient.png) top left repeat-x;*/
+	border: 1px solid #6699cc;
+	background: #6699cc;
+	border-radius: 10px;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;		
+}
+
+#form input, #form select, #form textarea
+{
+    background: #ffffff;
+    padding: 2px;
+    margin: 2px 0;
+    border: 1px solid #cccccc;
+}
+
+.contenttext_form 
+{
+	font-size: 11px;
+	color: #ffffff;
+	vertical-align: middle;
+}
+
+#OpenDayForm
+{
+    color: #6699CC;
+}
+
+#OpenDayForm > form > table > td
+{
+    vertical-align: middle !important;
+    
+}
+
+#BookingPopup
+{
+    display: none;
+}
+
+.form-button
+{
+    text-indent:-9999px;
+    height: 25px;
+    width: 108px;
+    border: none;
+    background: transparent url(/assets/images/form-button.png) top left no-repeat;   
+}
+
+.form-button:hover
+{
+    background: transparent url(/assets/images/form-button.png) 0px -25px no-repeat;
+}
+
+/*----------Captcha----------*/
+#enquirylabel
+{
+	padding-left: 15px;	
+}
+
+td.captcha
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+
+#recaptcha_widget
+{
+	padding: 0px 0 5px 0;
+	font-size: 0.75em;
+	/*border: 1px solid #999999;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;*/
+	background: #6699cc;
+}
+
+#recaptcha_image
+{
+	margin-bottom: 5px;
+}
+
+
+
+#overlay-blind
+{
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:10000px;
+    width:2000px;
+    background:black;
+    filter: alpha(opacity = 70);
+    opacity:0.7;
+    z-index:2000;
+}
+#overlay-window
+{
+    display:none;
+    position:fixed;
+    width:380px;
+    height:550px;
+    background:white;
+    z-index:2500;
+    padding:20px;
+    border-radius:8px;
+    box-shadow: 5px 5px 5px #666;
+    text-align:left;
+}
+#overlay-window > #textwrapper
+{
+    padding-top:9px;
+    padding-left:12px;
+    padding-right:12px;
+    //background:#F2F4F3;
+    overflow-y:scroll;
+    height:330px;
+}
+#overlay-window img
+{
+    float:right;
+    margin-left:15px;
+    margin-bottom:10px;
+	height: 550px;
+}
+#overlay-close
+{
+    background:none!important;
+    color:black;
+    position:absolute;
+    top:5px;
+    right:20px;
+    /*text-transform:uppercase;*/
+    font-size:1.3em;
+}
+#overlay-close > img
+{
+    width:48px;
+    height:48px;
+}
+
+
+/* SPLASH MESSAGE */
+#splash
+	{
+		padding: 10px;
+		margin: 10px 0;
+		text-align: center;
+		font-weight: bold;
+		background: #ffffcc;
+		border: 2px solid #ffcc00;
+display: none;
+	}

@@ -1,96 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com 
+-->
 <url>
-  <loc>http://www.ferndaledental.co.uk/</loc>
+<loc>http://www.ferndaledental.co.uk/</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/index.php</loc>
+<loc>http://www.ferndaledental.co.uk/index.php</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/about/welcome.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/about-us/patient-information.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/about/staff.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/about-us/meet-the-team.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/about/denplan.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/about-us/denplan.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/contact.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/about-us/patient-care-information.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/family.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/about-us/family-treatment-information.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/specialist/sedation.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/confident-smile/smile-makeover.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/specialist/orthodontics.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/confident-smile/invisalign.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/specialist/periodontal.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/confident-smile/teeth-whitening.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/welcome.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/confident-smile/tooth-coloured-fillings.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/meet_your_dentist.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/confident-smile/porcelain-veneers.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/patient_care.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/confident-smile/valplast-dentures.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/services.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/specialist-treatments/sedation-treatments.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/services/smile_makeover.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/specialist-treatments/orthodontic-treatments.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/services/lumineers.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/specialist-treatments/periodontal-treatments.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/services/invisalign.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/specialist-treatments/snoring-solutions.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/services/teeth_whitening.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/advice/antibiotics.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/services/tooth_coloured_fillings.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/advice/extractions.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/services/porcelain_veneers.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/advice/crowns-and-fillings.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/advice/antibiotics.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/advice/orthodontics.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/advice/extractions.php</loc>
+<loc>
+http://www.ferndaledental.co.uk/our-services/advice/sedations.php
+</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/advice/fillings_crowns.php</loc>
+<loc>http://www.ferndaledental.co.uk/contact-us.php</loc>
 </url>
 <url>
-  <loc>http://www.ferndaledental.co.uk/advice/orthodontics.php</loc>
-</url>
-<url>
-  <loc>http://www.ferndaledental.co.uk/advice/sedations.php</loc>
-</url>
-<url>
-  <loc>http://www.ferndaledental.co.uk/links.php</loc>
-</url>
-<url>
-  <loc>http://www.ferndaledental.co.uk/confident_smile/examination.php</loc>
-</url>
-<url>
-  <loc>http://www.ferndaledental.co.uk/landing/index.php</loc>
-</url>
-<url>
-  <loc>http://www.ferndaledental.co.uk/landing/feedback.php</loc>
+<loc>http://www.ferndaledental.co.uk/links.php</loc>
 </url>
 </urlset>

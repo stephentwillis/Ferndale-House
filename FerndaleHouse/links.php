@@ -1,123 +1,125 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb"> 
-
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-<title>Links | Ferndale House Dental Practice | Chesterfield, UK</title>
+	<title>Links | Ferndale House Dental Practice | The Patient People | Dentist in Chesterfield</title>
 
-	<?php include("includes/head.php"); ?><!--global head include, all css & scripts located here-->
+	<?php include("assets/includes/master-css.php"); ?>
 </head>
 
 <body>
+	<div class="wrapper">
+		<!--=== Header v4 ===-->
+		<?php include("assets/includes/header.php"); ?>
+		<!--=== End Header v4 ===-->
 
-	<div id="wrap">
-	
-		<?php include("includes/page_header.php"); ?><!--global mast image-->
-			
-		<div id="main-content-wrap"><!--main content nav, span 100%-->
-		
-		<?php include("includes/global_nav.php"); ?>
-		
-		<div id="main-content-right"><!--placed first in-line due to float issues-->			
-						
-			<div id="form"><!--placed first in-line due to float issues-->	
-				<?php include("includes/form.php"); ?>		
+		<!--=== Content Part ===-->
+		<div class="container content">
+			<div class="row magazine-page">
+				<!-- Begin Content -->
+                <div class="col-md-12">
+                    <h2>Links</h2>
+                </div>
+
+				<div class="col-md-8">
+
+					<!-- Magazine News -->
+					<div class="magazine-news">
+						<div class="row">
+
+							<div class="col-md-4 col-xs-6 col-sm-3 col-md-4">	
+                                <div class="link">
+                                    <a href="http://www.bda-dentistry.org.uk" target="_blank">
+                                        <img src="assets/img/links/bda-logo_125x125.png" class="center-block" alt="British Dental Association" />
+                                        <h6 class="text-center">
+                                            British Dental Association
+                                        </h6>
+                                    </a>
+                                </div>
+							</div>
+
+                            <div class="col-md-4 col-xs-6 col-sm-3 col-md-4">   
+                                <div class="link">
+                                    <a href="http://www.gdc-uk.org" target="_blank">
+                                        <img src="assets/img/links/gdc-logo_125x125.png" class="center-block" alt="General Dental Council" />
+                                        <h6 class="text-center">
+                                            General Dental Council
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-xs-6 col-sm-3 col-md-4">   
+                                <div class="link">
+                                    <a href="http://www.denplan.co.uk" target="_blank">
+                                        <img src="assets/img/links/denplan-logo_125x125.png" class="center-block" alt="Denplan" />
+                                        <h6 class="text-center">
+                                            Denplan
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-xs-6 col-sm-3 col-md-4">   
+                                <div class="link">
+                                    <a href="http://www.bos.org.uk" target="_blank">
+                                        <img src="assets/img/links/bos-logo_125x125.png" class="center-block" alt="British Orthodontics Society" />
+                                        <h6 class="text-center">
+                                            British Orthodontics Society
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-xs-6 col-sm-3 col-md-4">   
+                                <div class="link">
+                                    <a href="https://www.dentalhealth.org/" target="_blank">
+                                        <img src="assets/img/links/bdhf-logo_125x125.png" class="center-block" alt="British Dental Health Foundation" />
+                                        <h6 class="text-center">
+                                            British Dental Health Foundation
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-xs-6 col-sm-3 col-md-4">   
+                                <div class="link">
+                                    <a href="http://www.s4sdental.com/Solutions_4_Snoring/" target="_blank">
+                                        <img src="assets/img/links/s4s-logo_125x125.png" class="center-block" alt="Solutions 4 Snoring" />
+                                        <h6 class="text-center">
+                                            Solutions 4 Snoring
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+
+						</div>
+					</div>
+					<!-- End Magazine News -->					
+				</div>
+				<!-- End Content -->
+
+				<!-- Begin Sidebar -->
+				<div class="col-md-4">
+                    <?php include("assets/includes/form.php"); ?>
+                </div>
+				<!-- End Sidebar -->
 			</div>
-			
-			<h2>Come and meet us by filling out the form above or give us a call on 01246 232634</h2>
-		
-		</div>
-		
-		<div id="main-content-left" >
-						
-			<table id="LinksTable" cellspacing="0" cellpadding="5" border="0" width="100%" style="margin-left: -5px;">
-			
-				<tr>
-				<td width="100px">
-					<a href="http://www.bda-dentistry.org.uk" target="_blank">
-					<img src="images/bda.png" alt="bda" border="0" width="100px" />
-					</a>
-				</td>
-				
-				<td>
-				<h2>British Dental Association</h2>			
-				</td>
-				</tr>
-				
-				<tr>
-				<td>
-					<a href="http://www.gdc-uk.org" target="_blank">
-					<img src="images/gdc.png" alt="gdc" border="0" width="100px" />
-					</a>
-				</td>
-				
-				<td>
-				<h2>General Dental Council</h2>			
-				</td>
-				</tr>
-					
-				<tr>	
-				<td>
-					<a href="http://www.denplan.co.uk" target="_blank">
-					<img src="images/denplan.png" alt="denplan" border="0" width="100px" />
-					</a>
-				</td>
-				<td>
-				<h2>Denplan</h2>			
-				</td>
-				</tr>
-				
-				<tr>
-				<td>
-					<a href="http://www.bos.org.uk" target="_blank">
-					<img src="images/bos.png" alt="bos" border="0" width="100px" />
-					</a>
-				</td>
-				
-				<td>
-				<h2>British Orthodontics Society</h2>			
-				</td>
-				</tr>
-				
-				<tr>	
-				<td>	
-					<a href="http://www.dentalhealth.org.uk" target="_blank">
-					<img src="images/bdhf.png" alt="bdhf" border="0" width="100px" />
-					</a>
-				</td>
-				
-				<td>
-				<h2>British Dental Health Foundation</h2>			
-				</td>
-				</tr>
-				
-				<tr>	
-				<td>	
-					<a href="http://www.s4sdental.com/Solutions_4_Snoring/" target="_blank">
-					<img src="images/s4s_logo.gif" alt="bdhf" border="0" width="100px" />
-					</a>
-				</td>
-				
-				<td>
-				<h2>Solutions 4 Snoring</h2>			
-				</td>
-				</tr>
-			</table>				
-			
-			<div id="spacer"></div>
-											
-			</div><!--closes main content div-->	
-	
-		<div id="logos">
-			<?php include("includes/logos.php"); ?>
-			</div><!--global partner logos-->
-	
-	<div id="footer">	
-	<?php include("includes/footer.php"); ?><!--global footer-->
-	</div>
-	
-</div><!--closes main page div-->
+		</div><!--/container-->
+		<!-- End Content Part -->
 
-<?php include_once("includes/analyticstracking.php") ?>
+		<!--=== Owl Clients v1 ===-->
+		<?php include("assets/includes/logos.php"); ?>
+		<!--=== End Owl Clients v1 ===-->
 
+		<!--=== Footer Version 1 ===-->
+		<?php include("assets/includes/footer.php"); ?>
+		<!--=== End Footer Version 1 ===-->
+	</div><!--/wrapper-->
+
+	<?php include("assets/includes/master-js.php"); ?>
+
+	<?php include_once("assets/includes/analytics.php") ?>
 </body>
 </html>
