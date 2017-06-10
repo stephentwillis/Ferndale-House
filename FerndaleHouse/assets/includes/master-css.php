@@ -14,6 +14,7 @@
 <!-- CSS Global Compulsory -->
 <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
 
 <!-- CSS Header and Footer -->
 <link rel="stylesheet" href="/assets/css/headers/header-v4.css">

@@ -1,7 +1,7 @@
 <div class="header-v4">         
     <!-- Navbar -->
     <div class="navbar navbar-default mega-menu" role="navigation">
-        <div class="container">
+        <div class="header container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <a class="navbar-brand" href="/index.php" data-ajax="false">
@@ -89,9 +89,48 @@
                         </g>
                     </svg>
                 </a>
-
+                
                 <div id="telephone" class="text-right">
                     <h3>Call us today on 01246 232634</h3>
+                </div>
+
+                <div id="testimonials">
+                    <div class="testimonial active">
+                        <blockquote>
+                            “To All - Thank you, so much for making my dental procedures bearable and for the care and attention you have given me! <span style="text-transform: uppercase;">I LOVE MY NEW SMILE!</span> Thanks Again”
+                            <span class="attribution">&ndash; N</span>
+                        </blockquote>
+                    </div>                    
+                    <div class="testimonial">
+                        <blockquote>
+                            “Mr Willis and all the staff - Thank you so much for your hard work in getting my teeth so beautiful. I love them!”
+                            <span class="attribution">&ndash; RB</span>
+                        </blockquote>
+                    </div>                    
+                    <div class="testimonial">
+                        <blockquote>
+                            “Mr Willis and staff team - Thank you for your care, kindness, professional service and my new smile! I am so pleased, so delighted. Blessing to you all.”
+                            <span class="attribution">&ndash; RA</span>
+                        </blockquote>
+                    </div>                    
+                    <div class="testimonial">
+                        <blockquote>
+                            “I know it isn't over yet but Thank you for helping me get this far and over coming my fear. Thank you for being so patient.”
+                            <span class="attribution">&ndash; EH</span>
+                        </blockquote>
+                    </div>                    
+                    <div class="testimonial">
+                        <blockquote>
+                            “Dear All - Thank you so much for helping me get over my fear, you are all GEM'S. I cannot recommend you all highly enough xxx”
+                            <span class="attribution">&ndash; HE</span>
+                        </blockquote>
+                    </div>                    
+                    <div class="testimonial">
+                        <blockquote>
+                            “I would like to thank everyone at Ferndale Dental Practice for being so lovely. I could not of asked to deal with nicer people, and as for the teeth, I am over the moon. Thank you so much! Best wishes”
+                            <span class="attribution">&ndash; RP</span>
+                        </blockquote>
+                    </div>
                 </div>
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
